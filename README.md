@@ -9,13 +9,13 @@
 #### NPM
 
 ```shell
-npm i @enix223/vant-material-design-icons -S
+npm i vant-material-design-icons -S
 ```
 
 #### YARN
 
 ```shell
-yarn add @enix223/vant-material-design-icons
+yarn add vant-material-design-icons
 ```
 
 ## Document
