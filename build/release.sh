@@ -8,8 +8,8 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
   # build
-  npm version $VERSION --no-git-tag-version
-  VERSION=$VERSION npm run build
+  yarn version $VERSION --no-git-tag-version
+  VERSION=$VERSION yarn build
 
   # commit
   git tag v$VERSION
@@ -20,5 +20,5 @@ then
   git push origin refs/tags/v$VERSION
   git push origin master
 
-  npm publish --access public
+  yarn publish --access public
 fi
