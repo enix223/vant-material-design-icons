@@ -76,6 +76,9 @@ function iconfontCss(config) {
     // get name & code point pairs
     const lines = fs.readFileSync(codepoints, 'utf-8').split(/\r?\n/)
     lines.forEach(function(line) {
+			if (line === '') {
+				return
+			}
       const [name, codepoint] = line.split(' ')
       glyphMap.push({
         glyphName: name,
