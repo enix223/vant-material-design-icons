@@ -1,6 +1,6 @@
 {
   "name": "vant-material-design-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google material design icons for youzan vant",
   "author": "Enix Yu <enixyu@cloudesk.top>",
   "license": "MIT",
@@ -28,10 +28,10 @@
   "homepage": "https://github.com/enix223/vant-material-design-icons#readme",
   "devDependencies": {
     "consolidate": "^0.15.1",
-    "lodash": "^4.17.11",
     "fast-glob": "^2.2.6",
     "fs-extra": "^7.0.1",
     "gulp": "^4.0.0",
+    "lodash": "^4.17.11",
     "plugin-error": "^1.0.1"
   },
   "dependencies": {}
