@@ -8,7 +8,7 @@ echo    # (optional) move to a new line
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
   # build
-  yarn version $VERSION --no-git-tag-version
+  yarn --new-version $VERSION
   VERSION=$VERSION yarn build
 
   # commit
